@@ -20,4 +20,4 @@ if (customerAge<18) {
     ticketPrice = ticketPrice*discount40;
 }
 
-document.getElementById("display").innerHTML= "Your ticket costs:" +ticketPrice+"&euro;";
+document.getElementById("display").innerHTML= "Your ticket costs:" +ticketPrice.toFixed(2)+"&euro;";

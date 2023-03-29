@@ -1,4 +1,4 @@
-/*
+
 //VARIABLES ACQUISITION
 let km = prompt("How many kilometers will your run be?");
 let customerAge = prompt("Please insert your age:");
@@ -21,4 +21,9 @@ if (customerAge<18) {
 }
 
 //PRICE SCREEN PRINT 
-document.getElementById("display").innerHTML= "Your ticket costs:" +ticketPrice.toFixed(2)+"&euro;"; */
+document.getElementById("display").innerHTML= "Your ticket costs:" +ticketPrice.toFixed(2)+"&euro;"; 
+
+
+document.getElementById("customerAge").innerHTML= customerAge;
+document.getElementById("km").innerHTML= km + "Km";
+document.getElementById("ticketPrice").innerHTML= ticketPrice + "&euro;";

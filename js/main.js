@@ -24,6 +24,8 @@ if (customerAge<18) {
 document.getElementById("display").innerHTML= "Your ticket costs:" +ticketPrice.toFixed(2)+"&euro;"; 
 
 
-document.getElementById("customerAge").innerHTML= customerAge;
-document.getElementById("km").innerHTML= km + "Km";
-document.getElementById("ticketPrice").innerHTML= ticketPrice + "&euro;";
+
+/*
+localStorage.setItem("customer_Age", customerAge);
+localStorage.setItem("kilometers", km);
+localStorage.setItem("ticket_Price", ticketPrice);*/

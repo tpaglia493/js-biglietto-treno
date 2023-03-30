@@ -18,7 +18,7 @@ if (customerAge<18) {
     
 } else if (customerAge>65){
     ticketPrice = ticketPrice*discount40;
-}
+};
 
 //PRICE SCREEN PRINT 
 document.getElementById("display").innerHTML= "Your ticket costs:" +ticketPrice.toFixed(2)+"&euro;"; 
